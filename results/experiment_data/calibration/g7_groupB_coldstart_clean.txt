@@ -1,0 +1,13 @@
+G7 Group B — calibration-stage diagnostic (freezes nothing, asserts nothing)
+stream 288 chunks, ['R0', 'R2', 'R0', 'R2', 'R0', 'R2'], library {c0} only (COLD START — real S2 condition)
+seed_base=50000  no_refine=False  c0-baseline: CLEAN (all configs identical c0)
+CAVEAT: charts here are NOT P0-G on-policy. Confirms tau=0.5 dead / tau~0.26 alive; NOT the frozen decision.
+
+P50  tau=0.262 m=0     motion-gate               OK (25%)  router-switch               OK (38%, 5/1 start + 209x expanded)  probe: armed 17 commit 4 (rej: 13score/0full; verify 13same/4cross-traj)  K_max: maxlib 5/8
+P50  tau=0.262 m=0.05  motion-gate               OK (25%)  router-switch               OK (26%, 3/1 start + 177x expanded)  probe: armed 18 commit 2 (rej: 16score/0full; verify 14same/4cross-traj)  K_max: maxlib 3/8
+P50  tau=0.5   m=0     motion-gate               OK (25%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 3 commit 0 (rej: 3score/0full; verify 3same/0cross-traj)  K_max: maxlib 1/8
+P50  tau=0.5   m=0.05  motion-gate               OK (25%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 3 commit 0 (rej: 3score/0full; verify 3same/0cross-traj)  K_max: maxlib 1/8
+P75  tau=0.262 m=0     motion-gate               OK (37%)  router-switch               OK (30%, 3/1 start + 148x expanded)  probe: armed 13 commit 2 (rej: 11score/0full; verify 10same/3cross-traj)  K_max: maxlib 3/8
+P75  tau=0.262 m=0.05  motion-gate               OK (37%)  router-switch               OK (16%, 4/1 start + 146x expanded)  probe: armed 13 commit 3 (rej: 10score/0full; verify 10same/3cross-traj)  K_max: maxlib 4/8
+P75  tau=0.5   m=0     motion-gate               OK (37%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 3 commit 0 (rej: 3score/0full; verify 3same/0cross-traj)  K_max: maxlib 1/8
+P75  tau=0.5   m=0.05  motion-gate               OK (37%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 3 commit 0 (rej: 3score/0full; verify 3same/0cross-traj)  K_max: maxlib 1/8

@@ -1,0 +1,49 @@
+{
+  "n_paired": 20,
+  "episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "chart_sr": "1/20",
+  "baseline_sr": "10/20",
+  "delta_sr": -0.45,
+  "delta_sr_ci95": [
+    -0.65,
+    -0.25
+  ],
+  "mcnemar_p": 0.00390625,
+  "discordant_split": {
+    "chart_succeeds_baseline_fails (n_10)": 0,
+    "baseline_succeeds_chart_fails (n_01)": 9,
+    "both_succeed (n_11)": 1,
+    "both_fail (n_00)": 10
+  },
+  "mechanism_overshoot": {
+    "chart_knockaways": 1,
+    "baseline_knockaways": 4,
+    "chart_mean_final_block_dist_px": 57.38589136845394,
+    "baseline_mean_final_block_dist_px": 54.81393080336377
+  },
+  "RED_FLAG_1_catastrophic_sr": true,
+  "RED_FLAG_2_mechanism_unmoved": false,
+  "verdict": "BLOCK -- red flag fired",
+  "power_statement": "n=20 paired detects ~25-30 pp. Given N1's well-powered null (44/100 vs 43/100) the expected effect is ~0. This is a CATASTROPHE SCREEN, not an efficacy test. A null means 'not broken', never 'works'."
+}

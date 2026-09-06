@@ -1,0 +1,168 @@
+{
+  "dt_env_s": 0.1,
+  "goal_radius_px": 20.0,
+  "per_cell": {
+    "damp0.05_nas2": {
+      "n": 20,
+      "coast_pred_median": -0.1,
+      "coast_meas_median": -0.1,
+      "pred_over_meas_median": 0.98,
+      "pred_over_meas_median_from_step5": 1.0,
+      "pearson_r_pred_meas": 0.992,
+      "n_crossings": 12,
+      "settled_SR_measured": 0.35,
+      "settled_SR_predicted": 0.35
+    },
+    "damp0.05_nas6": {
+      "n": 20,
+      "coast_pred_median": 2.4,
+      "coast_meas_median": 2.7,
+      "pred_over_meas_median": 1.0,
+      "pred_over_meas_median_from_step5": 1.0,
+      "pearson_r_pred_meas": 0.994,
+      "n_crossings": 14,
+      "settled_SR_measured": 0.4,
+      "settled_SR_predicted": 0.4
+    },
+    "damp0.1_nas2": {
+      "n": 20,
+      "coast_pred_median": 0.3,
+      "coast_meas_median": 0.8,
+      "pred_over_meas_median": 0.87,
+      "pred_over_meas_median_from_step5": 1.0,
+      "pearson_r_pred_meas": 0.987,
+      "n_crossings": 11,
+      "settled_SR_measured": 0.1,
+      "settled_SR_predicted": 0.1
+    },
+    "damp0.1_nas6": {
+      "n": 20,
+      "coast_pred_median": 6.2,
+      "coast_meas_median": 9.7,
+      "pred_over_meas_median": 0.97,
+      "pred_over_meas_median_from_step5": 1.0,
+      "pearson_r_pred_meas": 0.991,
+      "n_crossings": 14,
+      "settled_SR_measured": 0.2,
+      "settled_SR_predicted": 0.25
+    },
+    "damp0.2_nas2": {
+      "n": 20,
+      "coast_pred_median": 1.9,
+      "coast_meas_median": 6.4,
+      "pred_over_meas_median": 0.91,
+      "pred_over_meas_median_from_step5": 1.0,
+      "pearson_r_pred_meas": 0.959,
+      "n_crossings": 10,
+      "settled_SR_measured": 0.15,
+      "settled_SR_predicted": 0.15
+    },
+    "damp0.2_nas6": {
+      "n": 20,
+      "coast_pred_median": 12.8,
+      "coast_meas_median": 15.0,
+      "pred_over_meas_median": 0.97,
+      "pred_over_meas_median_from_step5": 1.0,
+      "pearson_r_pred_meas": 0.971,
+      "n_crossings": 13,
+      "settled_SR_measured": 0.15,
+      "settled_SR_predicted": 0.15
+    },
+    "damp0.3_nas2": {
+      "n": 20,
+      "coast_pred_median": 6.8,
+      "coast_meas_median": 14.2,
+      "pred_over_meas_median": 0.9,
+      "pred_over_meas_median_from_step5": 1.01,
+      "pearson_r_pred_meas": 0.97,
+      "n_crossings": 10,
+      "settled_SR_measured": 0.05,
+      "settled_SR_predicted": 0.1
+    },
+    "damp0.3_nas6": {
+      "n": 20,
+      "coast_pred_median": 8.9,
+      "coast_meas_median": 27.2,
+      "pred_over_meas_median": 0.76,
+      "pred_over_meas_median_from_step5": 1.01,
+      "pearson_r_pred_meas": 0.953,
+      "n_crossings": 11,
+      "settled_SR_measured": 0.0,
+      "settled_SR_predicted": 0.0
+    },
+    "damp0.5_nas2": {
+      "n": 20,
+      "coast_pred_median": 44.4,
+      "coast_meas_median": 54.8,
+      "pred_over_meas_median": 1.04,
+      "pred_over_meas_median_from_step5": 1.1,
+      "pearson_r_pred_meas": 0.908,
+      "n_crossings": 9,
+      "settled_SR_measured": 0.0,
+      "settled_SR_predicted": 0.0
+    },
+    "damp0.5_nas6": {
+      "n": 20,
+      "coast_pred_median": 31.7,
+      "coast_meas_median": 62.9,
+      "pred_over_meas_median": 0.95,
+      "pred_over_meas_median_from_step5": 1.09,
+      "pearson_r_pred_meas": 0.942,
+      "n_crossings": 11,
+      "settled_SR_measured": 0.0,
+      "settled_SR_predicted": 0.0
+    }
+  },
+  "ladder_survival": {
+    "nas2": {
+      "0.05": {
+        "measured": 0.35,
+        "predicted": 0.35
+      },
+      "0.1": {
+        "measured": 0.1,
+        "predicted": 0.1
+      },
+      "0.2": {
+        "measured": 0.15,
+        "predicted": 0.15
+      },
+      "0.3": {
+        "measured": 0.05,
+        "predicted": 0.1
+      },
+      "0.5": {
+        "measured": 0.0,
+        "predicted": 0.0
+      }
+    },
+    "nas6": {
+      "0.05": {
+        "measured": 0.4,
+        "predicted": 0.4
+      },
+      "0.1": {
+        "measured": 0.2,
+        "predicted": 0.25
+      },
+      "0.2": {
+        "measured": 0.15,
+        "predicted": 0.15
+      },
+      "0.3": {
+        "measured": 0.0,
+        "predicted": 0.0
+      },
+      "0.5": {
+        "measured": 0.0,
+        "predicted": 0.0
+      }
+    }
+  },
+  "disjoint_fit": {
+    "n": 200,
+    "pearson_r": 0.981,
+    "pred_over_meas_median": 0.99,
+    "note": "PRIMARY: v0 fitted on hold-steps 5->15, predicting the finite 15->40 coast -- fit and predicted windows share NO data (the shipped per_cell/scatter numbers use a 1->5 fit that overlaps the 1->40 predicted quantity by ~24% at damping 0.5 and are kept only as the superseded overlapping version)."
+  }
+}

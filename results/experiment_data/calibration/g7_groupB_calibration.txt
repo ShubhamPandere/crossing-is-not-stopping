@@ -1,0 +1,12 @@
+G7 Group B — calibration-stage diagnostic (freezes nothing, asserts nothing)
+stream 288 chunks, ['R0', 'R2', 'R0', 'R2', 'R0', 'R2'], library {c0,R1,R2} from D:\Shubham\DeepLearning\Atlas\atlas\atlas_out\e2_charts
+CAVEAT: e2_charts = OLD dataset-replay collector, not P0-G on-policy. Confirms tau=0.5 dead / tau~0.26 alive; NOT the frozen decision.
+
+P50  tau=0.262 m=0     motion-gate               OK (25%)  router-switch               OK (41%, 3/3 start + 0x expanded)  probe: armed 13 commit 0 (rej: 13score/0full; verify 10same/3cross-traj)  K_max: maxlib 3/5
+P50  tau=0.262 m=0.05  motion-gate               OK (25%)  router-switch               OK (42%, 4/3 start + 20x expanded)  probe: armed 12 commit 2 (rej: 8score/2full; verify 8same/4cross-traj)  K_max: maxlib 5/5
+P50  tau=0.5   m=0     motion-gate               OK (25%)  router-switch               OK (47%, 3/3 start + 0x expanded)  probe: armed 1 commit 0 (rej: 1score/0full; verify 0same/1cross-traj)  K_max: maxlib 3/5
+P50  tau=0.5   m=0.05  motion-gate               OK (25%)  router-switch               OK (41%, 3/3 start + 0x expanded)  probe: armed 1 commit 0 (rej: 1score/0full; verify 0same/1cross-traj)  K_max: maxlib 3/5
+P75  tau=0.262 m=0     motion-gate               OK (37%)  router-switch               OK (57%, 4/3 start + 23x expanded)  probe: armed 8 commit 1 (rej: 7score/0full; verify 7same/1cross-traj)  K_max: maxlib 4/5
+P75  tau=0.262 m=0.05  motion-gate               OK (37%)  router-switch               OK (35%, 3/3 start + 0x expanded)  probe: armed 6 commit 0 (rej: 6score/0full; verify 5same/1cross-traj)  K_max: maxlib 3/5
+P75  tau=0.5   m=0     motion-gate               OK (37%)  router-switch               OK (46%, 3/3 start + 0x expanded)  probe: armed 0 commit 0 (rej: 0score/0full; verify 0same/0cross-traj)  K_max: maxlib 3/5
+P75  tau=0.5   m=0.05  motion-gate               OK (37%)  router-switch               OK (40%, 3/3 start + 0x expanded)  probe: armed 0 commit 0 (rej: 0score/0full; verify 0same/0cross-traj)  K_max: maxlib 3/5

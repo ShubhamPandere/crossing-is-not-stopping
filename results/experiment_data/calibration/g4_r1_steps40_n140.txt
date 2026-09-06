@@ -1,0 +1,5 @@
+  R0 contact rate = 0.89  (pose Δ mean 38.3 px, sd 28.3)
+  NULL  R0[100000:] - R0[0:]  mean +3.43 px  CI [-4.12, +10.85]  OK (contains 0)
+   R1 vs R0:  Δpose +6.82 px  CI [+4.56, +9.33]  (Δtrans +6.88 px, Δ|angle| -0.0051 rad; KS p=2.0e-01)  -> NOT DISTINGUISHABLE
+  [FAIL] G4 FAILED: regime(s) ['R1'] produce block trajectories statistically indistinguishable from R0 (or within the noise band) -- the physics modification is not real enough to build on.
+FAILED gates: ['G4']

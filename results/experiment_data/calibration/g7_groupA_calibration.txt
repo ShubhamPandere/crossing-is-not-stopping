@@ -1,0 +1,33 @@
+loaded 1440 chunks in 240 trajectories (3 regimes, 6 chunks/trajectory)
+
+=== PART 1 — motion-gate calibration (decision aid, freezes nothing) ===
+block-static (<1px) chunks: n=389   their latent_disp: p50=184 p90=229 p95=243
+  gate  thresh  %kept  %gated      blkdisp k/g     UMFmed k/g     UMFp90 k/g   strike%@τ=0.262  strike%@τ=0.5
+   P25     160    89%     11%    17.6/0.0       0.18/0.27     0.59/0.57            34%          15%
+   P50     184    75%     25%    23.4/0.3       0.18/0.23     0.61/0.53            35%          16%
+   P75     208    58%     42%    29.9/1.4       0.20/0.20     0.63/0.53            37%          17%
+   P90     229    44%     56%    36.8/3.0       0.22/0.19     0.63/0.54            40%          18%
+   P95     243    36%     64%    42.4/5.0       0.22/0.19     0.64/0.55            41%          19%
+
+(kept = chunk passes the gate and IS scored; gated = skipped, no score/strike/probe)
+'strike%@τ' = per-chunk P(UMF(c0) > τ) on the KEPT set — NOT the strike-counter fire rate.
+
+=== PART 2 — strike-counter PRELIMINARY within-trajectory liveness (q=3, real Expander.record) ===
+PRELIMINARY: 6 chunks/trajectory, one regime each => <=2 arm opportunities per trajectory. Lower bound, not the production fire rate. Full stream = Group B.
+per (regime): [n trajectories, n informative chunks, counter-arm events, trajectories with >=1 arm]
+
+  gate   tau                       R0                      R1                      R2
+   P50  0.26    [80t 337c  0arm  0tj]   [80t 342c  7arm  7tj]   [80t 395c 48arm 46tj]
+   P50  0.50    [80t 337c  0arm  0tj]   [80t 342c  1arm  1tj]   [80t 395c 10arm 10tj]
+   P75  0.26    [80t 242c  0arm  0tj]   [80t 258c  6arm  6tj]   [80t 338c 33arm 32tj]
+   P75  0.50    [80t 242c  0arm  0tj]   [80t 258c  0arm  0tj]   [80t 338c  5arm  5tj]
+   P90  0.26    [80t 170c  0arm  0tj]   [80t 192c  5arm  5tj]   [80t 278c 24arm 23tj]
+   P90  0.50    [80t 170c  0arm  0tj]   [80t 192c  0arm  0tj]   [80t 278c  0arm  0tj]
+   P95  0.26    [80t 137c  0arm  0tj]   [80t 153c  2arm  2tj]   [80t 231c 21arm 21tj]
+   P95  0.50    [80t 137c  0arm  0tj]   [80t 153c  0arm  0tj]   [80t 231c  0arm  0tj]
+  none  0.26    [80t 480c  5arm  5tj]   [80t 480c 13arm 13tj]   [80t 480c 63arm 58tj]
+  none  0.50    [80t 480c  0arm  0tj]   [80t 480c  1arm  1tj]   [80t 480c 11arm 11tj]
+
+t=trajectories  c=informative chunks  arm=counter reached q  tj=trajectories with >=1 arm
+Each trajectory is 6 chunks in one regime -> this is a WITHIN-trajectory liveness probe;
+the full A/B/A/B cross-regime stream version is Group B (needs P0-G charts).

@@ -1,0 +1,45 @@
+{
+  "config": {
+    "n_stream_chunks_assumed": 1100
+  },
+  "P0-B_motion_gate": {
+    "value": 242.73918762207032,
+    "n_static_chunks": 389,
+    "note": "P95 latent ||z_T - z_0||_F over block_disp_px < 1px chunks"
+  },
+  "P0-A_tau": {
+    "value": 0.26169198723999826,
+    "n_R0_informative": 137,
+    "note": "P95 UMF(c0) over R0 informative chunks"
+  },
+  "P0-D_strike_rates": {
+    "R0": {
+      "n_informative": 137,
+      "n_total": 480,
+      "gated_frac": 0.7145833333333333,
+      "strike_rate": 0.051094890510948905
+    },
+    "R1": {
+      "n_informative": 153,
+      "n_total": 480,
+      "gated_frac": 0.68125,
+      "strike_rate": 0.33986928104575165
+    },
+    "R2": {
+      "n_informative": 231,
+      "n_total": 480,
+      "gated_frac": 0.51875,
+      "strike_rate": 0.6753246753246753
+    }
+  },
+  "P0-D_q": {
+    "value": 3,
+    "p_R0": 0.051094890510948905,
+    "note": "smallest q with p_R0**q * N_stream < 1"
+  },
+  "P0-E_sigma_r": {
+    "umf": 0.046214917662311644,
+    "e1": 2133.5322265625,
+    "sdyn": 0.04089224338531494
+  }
+}

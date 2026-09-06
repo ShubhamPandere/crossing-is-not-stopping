@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.conda/
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights / checkpoints (never tracked in this repo)
+*.pt
+*.pth
+*.ckpt
+*.npz

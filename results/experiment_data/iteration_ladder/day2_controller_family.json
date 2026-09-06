@@ -1,0 +1,303 @@
+{
+  "PRIMARY_iteration_ladder": {
+    "1": {
+      "pass_through_SR": 0.35,
+      "settled_dist_mean": 36.1,
+      "median_progress_init_minus_settled": 52.2,
+      "moved_toward_goal": "18/20",
+      "contacts_mean": 5.5
+    },
+    "3": {
+      "pass_through_SR": 0.4,
+      "settled_dist_mean": 100.2,
+      "median_progress_init_minus_settled": -2.8,
+      "moved_toward_goal": "10/20",
+      "contacts_mean": 4.85
+    },
+    "10": {
+      "pass_through_SR": 0.45,
+      "settled_dist_mean": 137.3,
+      "median_progress_init_minus_settled": -62.9,
+      "moved_toward_goal": "6/20",
+      "contacts_mean": 4
+    },
+    "30": {
+      "pass_through_SR": 0.4,
+      "settled_dist_mean": 158.5,
+      "median_progress_init_minus_settled": -66.1,
+      "moved_toward_goal": "3/20",
+      "contacts_mean": 8.1
+    },
+    "it1_vs_it30_paired": {
+      "settled_delta_mean": -122.4,
+      "it1_closer": "19/20",
+      "wilcoxon_p_one_sided": 1.91e-06,
+      "pairing_mismatches": 0
+    }
+  },
+  "controllers": {
+    "it1  baseline": {
+      "n": 20,
+      "pass_through_SR": 0.35,
+      "settled_dist_mean": 36.09,
+      "settled_SR": 0.2
+    },
+    "it1  ln_act": {
+      "n": 20,
+      "pass_through_SR": 0.05,
+      "settled_dist_mean": 57.41,
+      "settled_SR": 0.05
+    },
+    "it3  baseline": {
+      "n": 20,
+      "pass_through_SR": 0.4,
+      "settled_dist_mean": 100.21,
+      "settled_SR": 0.0
+    },
+    "it3  ln_act": {
+      "n": 20,
+      "pass_through_SR": 0.0,
+      "settled_dist_mean": 61.69,
+      "settled_SR": 0.05
+    },
+    "it10 baseline": {
+      "n": 20,
+      "pass_through_SR": 0.45,
+      "settled_dist_mean": 137.32,
+      "settled_SR": 0.0
+    },
+    "it10 ln_act": {
+      "n": 20,
+      "pass_through_SR": 0.1,
+      "settled_dist_mean": 77.56,
+      "settled_SR": 0.0
+    },
+    "it30 baseline": {
+      "n": 20,
+      "pass_through_SR": 0.4,
+      "settled_dist_mean": 158.53,
+      "settled_SR": 0.0
+    },
+    "it30 ln_act": {
+      "n": 20,
+      "pass_through_SR": 0.3,
+      "settled_dist_mean": 71.73,
+      "settled_SR": 0.05
+    },
+    "a0   baseline": {
+      "n": 20,
+      "pass_through_SR": 0.45,
+      "settled_dist_mean": 141.06,
+      "settled_SR": 0.0
+    },
+    "a0   ln_act": {
+      "n": 20,
+      "pass_through_SR": 0.1,
+      "settled_dist_mean": 77.51,
+      "settled_SR": 0.0
+    },
+    "nas6 baseline": {
+      "n": 20,
+      "pass_through_SR": 0.55,
+      "settled_dist_mean": 138.9,
+      "settled_SR": 0.0
+    },
+    "nas6 ln_act": {
+      "n": 20,
+      "pass_through_SR": 0.25,
+      "settled_dist_mean": 111.12,
+      "settled_SR": 0.05
+    }
+  },
+  "missing": [],
+  "rank_by_passthrough_SR_best_first": [
+    [
+      "nas6 baseline",
+      0.55
+    ],
+    [
+      "it10 baseline",
+      0.45
+    ],
+    [
+      "a0   baseline",
+      0.45
+    ],
+    [
+      "it3  baseline",
+      0.4
+    ],
+    [
+      "it30 baseline",
+      0.4
+    ],
+    [
+      "it1  baseline",
+      0.35
+    ],
+    [
+      "it30 ln_act",
+      0.3
+    ],
+    [
+      "nas6 ln_act",
+      0.25
+    ],
+    [
+      "it10 ln_act",
+      0.1
+    ],
+    [
+      "a0   ln_act",
+      0.1
+    ],
+    [
+      "it1  ln_act",
+      0.05
+    ],
+    [
+      "it3  ln_act",
+      0.0
+    ]
+  ],
+  "rank_by_settled_distance_best_first": [
+    [
+      "it1  baseline",
+      36.09
+    ],
+    [
+      "it1  ln_act",
+      57.41
+    ],
+    [
+      "it3  ln_act",
+      61.69
+    ],
+    [
+      "it30 ln_act",
+      71.73
+    ],
+    [
+      "a0   ln_act",
+      77.51
+    ],
+    [
+      "it10 ln_act",
+      77.56
+    ],
+    [
+      "it3  baseline",
+      100.21
+    ],
+    [
+      "nas6 ln_act",
+      111.12
+    ],
+    [
+      "it10 baseline",
+      137.32
+    ],
+    [
+      "nas6 baseline",
+      138.9
+    ],
+    [
+      "a0   baseline",
+      141.06
+    ],
+    [
+      "it30 baseline",
+      158.53
+    ]
+  ],
+  "two_group_structure": {
+    "frozen_passthrough_SR_range": [
+      0.35,
+      0.55
+    ],
+    "chart_passthrough_SR_range": [
+      0.0,
+      0.3
+    ],
+    "disjoint_on_passthrough": true,
+    "chart_settled_dist_range": [
+      57.41,
+      111.12
+    ],
+    "frozen_settled_dist_range": [
+      36.09,
+      158.53
+    ],
+    "settled_ordering_crossings": 3
+  },
+  "kendall_tau_b_overall": -0.512,
+  "kendall_tau_caveat": "the 12 controllers form two disjoint 6-blocks on pass-through SR (all frozen > all chart), so the overall tau largely re-expresses N15 (chart worse on pass-through, better on settled). Secondary.",
+  "kendall_within_frozen": {
+    "tau": -0.358,
+    "p": 0.33,
+    "n": 6
+  },
+  "kendall_within_chart": {
+    "tau": -0.414,
+    "p": 0.251,
+    "n": 6
+  },
+  "kendall_p_analytic": 0.0227,
+  "kendall_p_permutation": 0.025,
+  "tau_perm_null_ci95": [
+    -0.45,
+    0.45
+  ],
+  "n_pairwise_inversions": 48,
+  "n_pairs_total": 66,
+  "inversions": [
+    "it3  baseline  >SR  it1  baseline   but  it3  baseline farther (100.21 vs 36.09)",
+    "it3  baseline  >SR  it1  ln_act   but  it3  baseline farther (100.21 vs 57.41)",
+    "it3  baseline  >SR  it3  ln_act   but  it3  baseline farther (100.21 vs 61.69)",
+    "it3  baseline  >SR  it10 ln_act   but  it3  baseline farther (100.21 vs 77.56)",
+    "it3  baseline  >SR  it30 ln_act   but  it3  baseline farther (100.21 vs 71.73)",
+    "it3  baseline  >SR  a0   ln_act   but  it3  baseline farther (100.21 vs 77.51)",
+    "it10 baseline  >SR  it1  baseline   but  it10 baseline farther (137.32 vs 36.09)",
+    "it10 baseline  >SR  it1  ln_act   but  it10 baseline farther (137.32 vs 57.41)",
+    "it10 baseline  >SR  it3  baseline   but  it10 baseline farther (137.32 vs 100.21)",
+    "it10 baseline  >SR  it3  ln_act   but  it10 baseline farther (137.32 vs 61.69)",
+    "it10 baseline  >SR  it10 ln_act   but  it10 baseline farther (137.32 vs 77.56)",
+    "it10 baseline  >SR  it30 ln_act   but  it10 baseline farther (137.32 vs 71.73)",
+    "it10 baseline  >SR  a0   ln_act   but  it10 baseline farther (137.32 vs 77.51)",
+    "it10 baseline  >SR  nas6 ln_act   but  it10 baseline farther (137.32 vs 111.12)",
+    "it10 ln_act  >SR  it1  ln_act   but  it10 ln_act farther (77.56 vs 57.41)",
+    "it10 ln_act  >SR  it3  ln_act   but  it10 ln_act farther (77.56 vs 61.69)",
+    "it30 baseline  >SR  it1  baseline   but  it30 baseline farther (158.53 vs 36.09)",
+    "it30 baseline  >SR  it1  ln_act   but  it30 baseline farther (158.53 vs 57.41)",
+    "it30 baseline  >SR  it3  ln_act   but  it30 baseline farther (158.53 vs 61.69)",
+    "it30 baseline  >SR  it10 ln_act   but  it30 baseline farther (158.53 vs 77.56)",
+    "it30 baseline  >SR  it30 ln_act   but  it30 baseline farther (158.53 vs 71.73)",
+    "it30 baseline  >SR  a0   ln_act   but  it30 baseline farther (158.53 vs 77.51)",
+    "it30 baseline  >SR  nas6 ln_act   but  it30 baseline farther (158.53 vs 111.12)",
+    "it30 ln_act  >SR  it1  ln_act   but  it30 ln_act farther (71.73 vs 57.41)",
+    "it30 ln_act  >SR  it3  ln_act   but  it30 ln_act farther (71.73 vs 61.69)",
+    "a0   baseline  >SR  it1  baseline   but  a0   baseline farther (141.06 vs 36.09)",
+    "a0   baseline  >SR  it1  ln_act   but  a0   baseline farther (141.06 vs 57.41)",
+    "a0   baseline  >SR  it3  baseline   but  a0   baseline farther (141.06 vs 100.21)",
+    "a0   baseline  >SR  it3  ln_act   but  a0   baseline farther (141.06 vs 61.69)",
+    "a0   baseline  >SR  it10 ln_act   but  a0   baseline farther (141.06 vs 77.56)",
+    "a0   baseline  >SR  it30 ln_act   but  a0   baseline farther (141.06 vs 71.73)",
+    "a0   baseline  >SR  a0   ln_act   but  a0   baseline farther (141.06 vs 77.51)",
+    "a0   baseline  >SR  nas6 ln_act   but  a0   baseline farther (141.06 vs 111.12)",
+    "a0   ln_act  >SR  it1  ln_act   but  a0   ln_act farther (77.51 vs 57.41)",
+    "a0   ln_act  >SR  it3  ln_act   but  a0   ln_act farther (77.51 vs 61.69)",
+    "nas6 baseline  >SR  it1  baseline   but  nas6 baseline farther (138.9 vs 36.09)",
+    "nas6 baseline  >SR  it1  ln_act   but  nas6 baseline farther (138.9 vs 57.41)",
+    "nas6 baseline  >SR  it3  baseline   but  nas6 baseline farther (138.9 vs 100.21)",
+    "nas6 baseline  >SR  it3  ln_act   but  nas6 baseline farther (138.9 vs 61.69)",
+    "nas6 baseline  >SR  it10 baseline   but  nas6 baseline farther (138.9 vs 137.32)",
+    "nas6 baseline  >SR  it10 ln_act   but  nas6 baseline farther (138.9 vs 77.56)",
+    "nas6 baseline  >SR  it30 ln_act   but  nas6 baseline farther (138.9 vs 71.73)",
+    "nas6 baseline  >SR  a0   ln_act   but  nas6 baseline farther (138.9 vs 77.51)",
+    "nas6 baseline  >SR  nas6 ln_act   but  nas6 baseline farther (138.9 vs 111.12)",
+    "nas6 ln_act  >SR  it1  ln_act   but  nas6 ln_act farther (111.12 vs 57.41)",
+    "nas6 ln_act  >SR  it3  ln_act   but  nas6 ln_act farther (111.12 vs 61.69)",
+    "nas6 ln_act  >SR  it10 ln_act   but  nas6 ln_act farther (111.12 vs 77.56)",
+    "nas6 ln_act  >SR  a0   ln_act   but  nas6 ln_act farther (111.12 vs 77.51)"
+  ]
+}

@@ -1,0 +1,7 @@
+G7 Group B — calibration-stage diagnostic (freezes nothing, asserts nothing)
+stream 288 chunks, ['R0', 'R2', 'R0', 'R2', 'R0', 'R2'], library {c0} only (COLD START — real S2 condition)
+seed_base=70000  no_refine=False  c0-baseline: CLEAN (all configs identical c0)
+CAVEAT: charts here are NOT P0-G on-policy. Confirms tau=0.5 dead / tau~0.26 alive; NOT the frozen decision.
+
+P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 18 commit 0 (rej: 18score/0full; verify 18same/0cross-traj)  K_max: maxlib 1/8
+P50  tau=0.262 m=0.05  motion-gate               OK (22%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 18 commit 0 (rej: 18score/0full; verify 18same/0cross-traj)  K_max: maxlib 1/8

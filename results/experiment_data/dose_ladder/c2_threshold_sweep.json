@@ -1,0 +1,964 @@
+{
+  "angle_bound_rad": 0.3490658503988659,
+  "cells": {
+    "it10_headline_nas2": {
+      "n": 20,
+      "frozen_sr_20px": 0.5,
+      "chart_sr_20px": 0.05,
+      "frozen_mean_px": 54.81393080336377,
+      "chart_mean_px": 57.38589136845394,
+      "frozen_sd_px": 49.67989619584989,
+      "chart_sd_px": 22.86845510118113,
+      "sd_ratio_chart_over_frozen": 0.46031608059381357,
+      "sr_curve_crossing_radius_px": null,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "12.0": {
+          "frozen": 0.05,
+          "chart": 0.0
+        },
+        "14.0": {
+          "frozen": 0.1,
+          "chart": 0.0
+        },
+        "16.0": {
+          "frozen": 0.2,
+          "chart": 0.0
+        },
+        "18.0": {
+          "frozen": 0.25,
+          "chart": 0.0
+        },
+        "20.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "22.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "24.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "26.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "28.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "30.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "32.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "34.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "36.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "38.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "40.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "42.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "44.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "46.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "48.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "50.0": {
+          "frozen": 0.5,
+          "chart": 0.15
+        },
+        "52.0": {
+          "frozen": 0.5,
+          "chart": 0.15
+        },
+        "54.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        },
+        "56.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        },
+        "58.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        },
+        "60.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        }
+      }
+    },
+    "it1_nas2": {
+      "n": 20,
+      "frozen_sr_20px": 0.35,
+      "chart_sr_20px": 0.05,
+      "frozen_mean_px": 46.291720503896116,
+      "chart_mean_px": 65.31558291650165,
+      "frozen_sd_px": 29.449136735401023,
+      "chart_sd_px": 28.821700727417596,
+      "sd_ratio_chart_over_frozen": 0.9786942478612902,
+      "sr_curve_crossing_radius_px": null,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "12.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "14.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "16.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "18.0": {
+          "frozen": 0.1,
+          "chart": 0.0
+        },
+        "20.0": {
+          "frozen": 0.35,
+          "chart": 0.05
+        },
+        "22.0": {
+          "frozen": 0.35,
+          "chart": 0.05
+        },
+        "24.0": {
+          "frozen": 0.4,
+          "chart": 0.05
+        },
+        "26.0": {
+          "frozen": 0.4,
+          "chart": 0.05
+        },
+        "28.0": {
+          "frozen": 0.4,
+          "chart": 0.05
+        },
+        "30.0": {
+          "frozen": 0.4,
+          "chart": 0.05
+        },
+        "32.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "34.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "36.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "38.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "40.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "42.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "44.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "46.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "48.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "50.0": {
+          "frozen": 0.45,
+          "chart": 0.2
+        },
+        "52.0": {
+          "frozen": 0.45,
+          "chart": 0.25
+        },
+        "54.0": {
+          "frozen": 0.45,
+          "chart": 0.3
+        },
+        "56.0": {
+          "frozen": 0.45,
+          "chart": 0.3
+        },
+        "58.0": {
+          "frozen": 0.45,
+          "chart": 0.35
+        },
+        "60.0": {
+          "frozen": 0.45,
+          "chart": 0.35
+        }
+      }
+    },
+    "it3_nas2": {
+      "n": 20,
+      "frozen_sr_20px": 0.4,
+      "chart_sr_20px": 0.0,
+      "frozen_mean_px": 56.67313595906135,
+      "chart_mean_px": 55.83151313397798,
+      "frozen_sd_px": 46.575026949077255,
+      "chart_sd_px": 26.389323211169696,
+      "sd_ratio_chart_over_frozen": 0.5665981307970562,
+      "sr_curve_crossing_radius_px": 56.0,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "12.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "14.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "16.0": {
+          "frozen": 0.05,
+          "chart": 0.0
+        },
+        "18.0": {
+          "frozen": 0.3,
+          "chart": 0.0
+        },
+        "20.0": {
+          "frozen": 0.4,
+          "chart": 0.0
+        },
+        "22.0": {
+          "frozen": 0.4,
+          "chart": 0.05
+        },
+        "24.0": {
+          "frozen": 0.4,
+          "chart": 0.05
+        },
+        "26.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "28.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "30.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "32.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "34.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "36.0": {
+          "frozen": 0.4,
+          "chart": 0.1
+        },
+        "38.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "40.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "42.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "44.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "46.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "48.0": {
+          "frozen": 0.45,
+          "chart": 0.25
+        },
+        "50.0": {
+          "frozen": 0.45,
+          "chart": 0.35
+        },
+        "52.0": {
+          "frozen": 0.45,
+          "chart": 0.35
+        },
+        "54.0": {
+          "frozen": 0.45,
+          "chart": 0.4
+        },
+        "56.0": {
+          "frozen": 0.45,
+          "chart": 0.45
+        },
+        "58.0": {
+          "frozen": 0.5,
+          "chart": 0.45
+        },
+        "60.0": {
+          "frozen": 0.5,
+          "chart": 0.45
+        }
+      }
+    },
+    "alpha0_nas2": {
+      "n": 20,
+      "frozen_sr_20px": 0.45,
+      "chart_sr_20px": 0.1,
+      "frozen_mean_px": 64.85827701217849,
+      "chart_mean_px": 70.24379398427894,
+      "frozen_sd_px": 66.4569727074237,
+      "chart_sd_px": 44.56334876762456,
+      "sd_ratio_chart_over_frozen": 0.6705594153951964,
+      "sr_curve_crossing_radius_px": null,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "12.0": {
+          "frozen": 0.1,
+          "chart": 0.0
+        },
+        "14.0": {
+          "frozen": 0.2,
+          "chart": 0.0
+        },
+        "16.0": {
+          "frozen": 0.2,
+          "chart": 0.05
+        },
+        "18.0": {
+          "frozen": 0.3,
+          "chart": 0.05
+        },
+        "20.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "22.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "24.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "26.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "28.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "30.0": {
+          "frozen": 0.45,
+          "chart": 0.1
+        },
+        "32.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "34.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "36.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "38.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "40.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "42.0": {
+          "frozen": 0.45,
+          "chart": 0.25
+        },
+        "44.0": {
+          "frozen": 0.45,
+          "chart": 0.25
+        },
+        "46.0": {
+          "frozen": 0.45,
+          "chart": 0.25
+        },
+        "48.0": {
+          "frozen": 0.45,
+          "chart": 0.25
+        },
+        "50.0": {
+          "frozen": 0.5,
+          "chart": 0.35
+        },
+        "52.0": {
+          "frozen": 0.5,
+          "chart": 0.35
+        },
+        "54.0": {
+          "frozen": 0.5,
+          "chart": 0.35
+        },
+        "56.0": {
+          "frozen": 0.5,
+          "chart": 0.35
+        },
+        "58.0": {
+          "frozen": 0.5,
+          "chart": 0.4
+        },
+        "60.0": {
+          "frozen": 0.5,
+          "chart": 0.4
+        }
+      }
+    },
+    "nas6": {
+      "n": 20,
+      "frozen_sr_20px": 0.55,
+      "chart_sr_20px": 0.25,
+      "frozen_mean_px": 68.38663851617403,
+      "chart_mean_px": 45.95489180796887,
+      "frozen_sd_px": 66.82572742278325,
+      "chart_sd_px": 34.11646995288218,
+      "sd_ratio_chart_over_frozen": 0.5105289724276263,
+      "sr_curve_crossing_radius_px": 30.0,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.05
+        },
+        "12.0": {
+          "frozen": 0.0,
+          "chart": 0.1
+        },
+        "14.0": {
+          "frozen": 0.05,
+          "chart": 0.1
+        },
+        "16.0": {
+          "frozen": 0.25,
+          "chart": 0.15
+        },
+        "18.0": {
+          "frozen": 0.4,
+          "chart": 0.2
+        },
+        "20.0": {
+          "frozen": 0.55,
+          "chart": 0.25
+        },
+        "22.0": {
+          "frozen": 0.55,
+          "chart": 0.3
+        },
+        "24.0": {
+          "frozen": 0.55,
+          "chart": 0.4
+        },
+        "26.0": {
+          "frozen": 0.55,
+          "chart": 0.5
+        },
+        "28.0": {
+          "frozen": 0.55,
+          "chart": 0.5
+        },
+        "30.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "32.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "34.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "36.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "38.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "40.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "42.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "44.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "46.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "48.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "50.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "52.0": {
+          "frozen": 0.55,
+          "chart": 0.6
+        },
+        "54.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        },
+        "56.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        },
+        "58.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        },
+        "60.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        }
+      }
+    }
+  },
+  "pools": {
+    "nas2_pool": {
+      "n_paired": 80,
+      "cells": [
+        "it10_headline_nas2",
+        "it1_nas2",
+        "it3_nas2",
+        "alpha0_nas2"
+      ],
+      "sd_ratio_chart_over_frozen": 0.6432854772930741,
+      "sd_ratio_ci95": [
+        0.47736556914973177,
+        0.8039989552181133
+      ],
+      "sd_ratio_ci_excludes_1": true,
+      "sr_curve_crossing_radius_px": null,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "12.0": {
+          "frozen": 0.0375,
+          "chart": 0.0
+        },
+        "14.0": {
+          "frozen": 0.075,
+          "chart": 0.0
+        },
+        "16.0": {
+          "frozen": 0.1125,
+          "chart": 0.0125
+        },
+        "18.0": {
+          "frozen": 0.2375,
+          "chart": 0.0125
+        },
+        "20.0": {
+          "frozen": 0.425,
+          "chart": 0.05
+        },
+        "22.0": {
+          "frozen": 0.425,
+          "chart": 0.0625
+        },
+        "24.0": {
+          "frozen": 0.4375,
+          "chart": 0.0625
+        },
+        "26.0": {
+          "frozen": 0.4375,
+          "chart": 0.075
+        },
+        "28.0": {
+          "frozen": 0.4375,
+          "chart": 0.075
+        },
+        "30.0": {
+          "frozen": 0.4375,
+          "chart": 0.075
+        },
+        "32.0": {
+          "frozen": 0.4375,
+          "chart": 0.1
+        },
+        "34.0": {
+          "frozen": 0.4375,
+          "chart": 0.1
+        },
+        "36.0": {
+          "frozen": 0.4375,
+          "chart": 0.1
+        },
+        "38.0": {
+          "frozen": 0.45,
+          "chart": 0.1125
+        },
+        "40.0": {
+          "frozen": 0.45,
+          "chart": 0.1125
+        },
+        "42.0": {
+          "frozen": 0.45,
+          "chart": 0.15
+        },
+        "44.0": {
+          "frozen": 0.4625,
+          "chart": 0.15
+        },
+        "46.0": {
+          "frozen": 0.4625,
+          "chart": 0.1625
+        },
+        "48.0": {
+          "frozen": 0.4625,
+          "chart": 0.1875
+        },
+        "50.0": {
+          "frozen": 0.475,
+          "chart": 0.2625
+        },
+        "52.0": {
+          "frozen": 0.475,
+          "chart": 0.275
+        },
+        "54.0": {
+          "frozen": 0.475,
+          "chart": 0.325
+        },
+        "56.0": {
+          "frozen": 0.475,
+          "chart": 0.3375
+        },
+        "58.0": {
+          "frozen": 0.4875,
+          "chart": 0.3625
+        },
+        "60.0": {
+          "frozen": 0.4875,
+          "chart": 0.3625
+        }
+      },
+      "frozen_mean_px": 55.65926606962491,
+      "chart_mean_px": 62.19419535080313,
+      "frozen_sd_px": 49.29674040751643,
+      "chart_sd_px": 31.711877182041977
+    },
+    "nas6": {
+      "n_paired": 20,
+      "cells": [
+        "nas6"
+      ],
+      "sd_ratio_chart_over_frozen": 0.5105289724276263,
+      "sd_ratio_ci95": [
+        0.31844630884019554,
+        0.753829125984244
+      ],
+      "sd_ratio_ci_excludes_1": true,
+      "sr_curve_crossing_radius_px": 30.0,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.05
+        },
+        "12.0": {
+          "frozen": 0.0,
+          "chart": 0.1
+        },
+        "14.0": {
+          "frozen": 0.05,
+          "chart": 0.1
+        },
+        "16.0": {
+          "frozen": 0.25,
+          "chart": 0.15
+        },
+        "18.0": {
+          "frozen": 0.4,
+          "chart": 0.2
+        },
+        "20.0": {
+          "frozen": 0.55,
+          "chart": 0.25
+        },
+        "22.0": {
+          "frozen": 0.55,
+          "chart": 0.3
+        },
+        "24.0": {
+          "frozen": 0.55,
+          "chart": 0.4
+        },
+        "26.0": {
+          "frozen": 0.55,
+          "chart": 0.5
+        },
+        "28.0": {
+          "frozen": 0.55,
+          "chart": 0.5
+        },
+        "30.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "32.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "34.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "36.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "38.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "40.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "42.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "44.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "46.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "48.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "50.0": {
+          "frozen": 0.55,
+          "chart": 0.55
+        },
+        "52.0": {
+          "frozen": 0.55,
+          "chart": 0.6
+        },
+        "54.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        },
+        "56.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        },
+        "58.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        },
+        "60.0": {
+          "frozen": 0.55,
+          "chart": 0.65
+        }
+      },
+      "frozen_mean_px": 68.38663851617403,
+      "chart_mean_px": 45.95489180796887,
+      "frozen_sd_px": 66.82572742278325,
+      "chart_sd_px": 34.11646995288218
+    },
+    "headline_only": {
+      "n_paired": 20,
+      "cells": [
+        "it10_headline_nas2"
+      ],
+      "sd_ratio_chart_over_frozen": 0.46031608059381357,
+      "sd_ratio_ci95": [
+        0.28404631940176944,
+        0.7564654788114098
+      ],
+      "sd_ratio_ci_excludes_1": true,
+      "sr_curve_crossing_radius_px": null,
+      "sr_curve": {
+        "10.0": {
+          "frozen": 0.0,
+          "chart": 0.0
+        },
+        "12.0": {
+          "frozen": 0.05,
+          "chart": 0.0
+        },
+        "14.0": {
+          "frozen": 0.1,
+          "chart": 0.0
+        },
+        "16.0": {
+          "frozen": 0.2,
+          "chart": 0.0
+        },
+        "18.0": {
+          "frozen": 0.25,
+          "chart": 0.0
+        },
+        "20.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "22.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "24.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "26.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "28.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "30.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "32.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "34.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "36.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "38.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "40.0": {
+          "frozen": 0.5,
+          "chart": 0.05
+        },
+        "42.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "44.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "46.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "48.0": {
+          "frozen": 0.5,
+          "chart": 0.1
+        },
+        "50.0": {
+          "frozen": 0.5,
+          "chart": 0.15
+        },
+        "52.0": {
+          "frozen": 0.5,
+          "chart": 0.15
+        },
+        "54.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        },
+        "56.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        },
+        "58.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        },
+        "60.0": {
+          "frozen": 0.5,
+          "chart": 0.25
+        }
+      },
+      "frozen_mean_px": 54.81393080336377,
+      "chart_mean_px": 57.38589136845394,
+      "frozen_sd_px": 49.67989619584989,
+      "chart_sd_px": 22.86845510118113
+    }
+  }
+}

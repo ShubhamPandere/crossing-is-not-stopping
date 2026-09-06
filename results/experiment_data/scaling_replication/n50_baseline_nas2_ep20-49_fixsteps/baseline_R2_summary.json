@@ -1,0 +1,26 @@
+{
+  "kind": "baseline",
+  "regime": "R2",
+  "regime_config": {
+    "damping": 0.5
+  },
+  "episodes": 30,
+  "episode_start": 20,
+  "out_suffix": "",
+  "num_samples": 300,
+  "iterations": 10,
+  "horizon": 6,
+  "num_act_stepped": 2,
+  "min_block_pos_diff": 40.0,
+  "max_agent_block_dist": 160.0,
+  "success_rate": 0.4,
+  "mean_wall_time_s": 82.46326564153036,
+  "peak_gpu_memory_gb": 6.338540544,
+  "settle_steps": 40,
+  "fix_steps_left": true,
+  "settled_success_rate": 0.0,
+  "settled_episodes_with_value": 30,
+  "log_umf": true,
+  "umf_mean_of_means": 0.5330642093603082,
+  "umf_episodes_with_value": 26
+}

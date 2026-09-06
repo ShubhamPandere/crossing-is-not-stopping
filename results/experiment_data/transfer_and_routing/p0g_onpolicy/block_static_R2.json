@@ -1,0 +1,26 @@
+{
+  "regime": "R2",
+  "block_static_px_threshold": 1.0,
+  "splits": {
+    "train": {
+      "n_trajs": 100,
+      "n_traj_static": 6,
+      "frac_traj_static": 0.06
+    },
+    "val": {
+      "n_trajs": 8,
+      "n_traj_static": 1,
+      "frac_traj_static": 0.125
+    },
+    "test": {
+      "n_trajs": 8,
+      "n_traj_static": 0,
+      "frac_traj_static": 0.0
+    }
+  },
+  "combined": {
+    "n_trajs": 116,
+    "n_traj_static": 7,
+    "frac_traj_static": 0.0603448275862069
+  }
+}

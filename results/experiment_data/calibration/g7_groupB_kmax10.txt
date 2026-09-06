@@ -1,0 +1,5 @@
+G7 Group B — calibration-stage diagnostic (freezes nothing, asserts nothing)
+stream 288 chunks, ['R0', 'R2', 'R0', 'R2', 'R0', 'R2'], library {c0,R1,R2} from D:\Shubham\DeepLearning\Atlas\atlas\atlas_out\e2_charts
+CAVEAT: e2_charts = OLD dataset-replay collector, not P0-G on-policy. Confirms tau=0.5 dead / tau~0.26 alive; NOT the frozen decision.
+
+P50  tau=0.262 m=0.05  motion-gate               OK (25%)  router-switch               OK (58%, 6/3 start + 67x expanded)  probe: armed 13 commit 3 (rej: 10score/0full; verify 11same/2cross-traj)  K_max: maxlib 6/10

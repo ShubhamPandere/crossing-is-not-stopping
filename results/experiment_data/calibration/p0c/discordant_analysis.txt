@@ -1,0 +1,23 @@
+P0-C discordant-episode audit (episodes where it=10 or it=15 disagrees with it=30)
+
+episode 8  (init 53px from goal, goal fixed by seed):
+  it30: success=0 steps=30 replans=3 final= 171.2px  CEM_iters_per_replan=?
+  it15: success=1 steps= 8 replans=1 final=  12.5px  CEM_iters_per_replan=15
+  it10: success=1 steps= 5 replans=1 final=  15.2px  CEM_iters_per_replan=10
+
+episode 9  (init 93px from goal, goal fixed by seed):
+  it30: success=0 steps=30 replans=3 final= 110.0px  CEM_iters_per_replan=?
+  it15: success=0 steps=30 replans=3 final=  70.4px  CEM_iters_per_replan=15
+  it10: success=1 steps=12 replans=2 final=  18.7px  CEM_iters_per_replan=10
+
+episode 17  (init 79px from goal, goal fixed by seed):
+  it30: success=0 steps=30 replans=3 final= 164.0px  CEM_iters_per_replan=?
+  it15: success=0 steps=30 replans=3 final= 225.0px  CEM_iters_per_replan=15
+  it10: success=1 steps= 7 replans=1 final=  19.8px  CEM_iters_per_replan=10
+
+episode 19  (init 57px from goal, goal fixed by seed):
+  it30: success=1 steps=11 replans=2 final=  18.2px  CEM_iters_per_replan=?
+  it15: success=0 steps=30 replans=3 final=  50.0px  CEM_iters_per_replan=15
+  it10: success=0 steps=30 replans=3 final=  92.6px  CEM_iters_per_replan=10
+
+Flag check: it15 diagnostics show 15 CEM iters/replan, it10 shows 10 — the --iterations flag is honoured in the raw data, not just wall time.

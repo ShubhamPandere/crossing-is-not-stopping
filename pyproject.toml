@@ -1,0 +1,73 @@
+[project]
+name = "atlas-wm"
+version = "0.1.0"
+description = "Evaluation methodology for continual world models: threshold-crossing vs. settle-validated success under momentum"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    # ── Core scientific stack ──────────────────────────────────────────────────
+    "torch>=2.3.0",
+    "torchvision>=0.18.0",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "pandas>=2.2",
+    "einops>=0.7",
+    "statsmodels>=0.14",
+
+    # ── Config / IO ───────────────────────────────────────────────────────────
+    "omegaconf>=2.3",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+
+    # ── Visualisation ─────────────────────────────────────────────────────────
+    "matplotlib>=3.9",
+
+    # ── Push-T environment ────────────────────────────────────────────────────
+    "gymnasium>=0.29",
+    "pymunk>=6.8",
+    "imageio>=2.34",
+    "opencv-python-headless>=4.9",
+
+    # jepa-wms is intentionally NOT listed here -- pip can't reliably resolve
+    # a relative `file:` path for a dependency of this project's own wheel,
+    # and a hardcoded absolute path isn't portable. Install it separately:
+    #   git clone https://github.com/facebookresearch/jepa-wms vendor/jepa-wms
+    #   pip install -e vendor/jepa-wms
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.4",
+]
+modal = [
+    "modal>=0.64",
+]
+
+[project.scripts]
+atlas-download        = "scripts.collection.download_data:main"
+atlas-chart-training  = "scripts.collection.chart_training:main"
+atlas-cem-planning    = "scripts.collection.cem_planning_eval:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["atlas", "scripts"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

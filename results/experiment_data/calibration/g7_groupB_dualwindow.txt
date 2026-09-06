@@ -1,0 +1,25 @@
+G7 Group B — calibration-stage diagnostic (freezes nothing, asserts nothing)
+['R0', 'R2', 'R0', 'R2', 'R0', 'R2'], library {c0} only (COLD START — real S2 condition), seeds [50000, 60000, 80000, 90000, 100000, 110000]
+no_refine=False  c0-baseline: CLEAN (all configs identical c0)
+CAVEAT: charts here are NOT P0-G on-policy. Confirms tau=0.5 dead / tau~0.26 alive; NOT the frozen decision.
+
+COMMIT DISTRIBUTION over 18 draws: [0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 4]  (mean 1.4, zero-commit 4/18, armed always 10-21)
+
+seed50000 P50  tau=0.262 m=0     motion-gate               OK (25%)  router-switch               OK (43%, 5/1 start + 191x expanded)  probe: armed 21 commit 4 (rej: 17score/0full; verify 16same/5cross-traj)  K_max: maxlib 5/8
+seed50000 P50  tau=0.262 m=0     motion-gate               OK (25%)  router-switch               OK (32%, 3/1 start + 237x expanded)  probe: armed 19 commit 2 (rej: 17score/0full; verify 17same/2cross-traj)  K_max: maxlib 3/8
+seed50000 P50  tau=0.262 m=0     motion-gate               OK (25%)  router-switch               OK (32%, 3/1 start + 237x expanded)  probe: armed 19 commit 2 (rej: 17score/0full; verify 17same/2cross-traj)  K_max: maxlib 3/8
+seed60000 P50  tau=0.262 m=0     motion-gate               OK (29%)  router-switch               OK (24%, 2/1 start + 58x expanded)  probe: armed 13 commit 1 (rej: 12score/0full; verify 7same/6cross-traj)  K_max: maxlib 2/8
+seed60000 P50  tau=0.262 m=0     motion-gate               OK (29%)  router-switch               OK (32%, 3/1 start + 74x expanded)  probe: armed 10 commit 2 (rej: 8score/0full; verify 6same/4cross-traj)  K_max: maxlib 3/8
+seed60000 P50  tau=0.262 m=0     motion-gate               OK (29%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 14 commit 0 (rej: 14score/0full; verify 9same/5cross-traj)  K_max: maxlib 1/8
+seed80000 P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch               OK (30%, 3/1 start + 161x expanded)  probe: armed 20 commit 2 (rej: 18score/0full; verify 19same/1cross-traj)  K_max: maxlib 3/8
+seed80000 P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch               OK (28%, 2/1 start + 161x expanded)  probe: armed 20 commit 1 (rej: 19score/0full; verify 19same/1cross-traj)  K_max: maxlib 2/8
+seed80000 P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 20 commit 0 (rej: 20score/0full; verify 18same/2cross-traj)  K_max: maxlib 1/8
+seed90000 P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch               OK (18%, 3/1 start + 112x expanded)  probe: armed 16 commit 2 (rej: 14score/0full; verify 12same/4cross-traj)  K_max: maxlib 3/8
+seed90000 P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch               OK (16%, 2/1 start + 110x expanded)  probe: armed 16 commit 1 (rej: 15score/0full; verify 12same/4cross-traj)  K_max: maxlib 2/8
+seed90000 P50  tau=0.262 m=0     motion-gate               OK (22%)  router-switch               OK (23%, 3/1 start + 158x expanded)  probe: armed 15 commit 2 (rej: 13score/0full; verify 11same/4cross-traj)  K_max: maxlib 3/8
+seed100000 P50  tau=0.262 m=0     motion-gate               OK (23%)  router-switch               OK (29%, 2/1 start + 90x expanded)  probe: armed 16 commit 1 (rej: 15score/0full; verify 8same/8cross-traj)  K_max: maxlib 2/8
+seed100000 P50  tau=0.262 m=0     motion-gate               OK (23%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 19 commit 0 (rej: 19score/0full; verify 11same/8cross-traj)  K_max: maxlib 1/8
+seed100000 P50  tau=0.262 m=0     motion-gate               OK (23%)  router-switch         DEAD ~0% (0%, 1/1 start + 0x expanded)  probe: armed 18 commit 0 (rej: 18score/0full; verify 10same/8cross-traj)  K_max: maxlib 1/8
+seed110000 P50  tau=0.262 m=0     motion-gate               OK (21%)  router-switch               OK (25%, 3/1 start + 92x expanded)  probe: armed 21 commit 2 (rej: 19score/0full; verify 17same/4cross-traj)  K_max: maxlib 3/8
+seed110000 P50  tau=0.262 m=0     motion-gate               OK (21%)  router-switch               OK (29%, 3/1 start + 105x expanded)  probe: armed 21 commit 2 (rej: 19score/0full; verify 17same/4cross-traj)  K_max: maxlib 3/8
+seed110000 P50  tau=0.262 m=0     motion-gate               OK (21%)  router-switch               OK (23%, 2/1 start + 87x expanded)  probe: armed 21 commit 1 (rej: 20score/0full; verify 17same/4cross-traj)  K_max: maxlib 2/8

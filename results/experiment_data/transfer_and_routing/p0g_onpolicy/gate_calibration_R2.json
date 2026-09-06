@@ -1,0 +1,11 @@
+{
+  "regime": "R2",
+  "n_chunks": 540,
+  "n_block_static_chunks": 60,
+  "frac_block_static_chunks": 0.1111111111111111,
+  "gate_10pct_RETIRED": 155.51747131347656,
+  "gate_10pct_false_pass_rate": 0.25,
+  "gate_p95_over_block_static_v3_6_6": 197.1181587219238,
+  "gate_p95_false_pass_rate": 0.05,
+  "note": "NEITHER value is adopted by this run -- CLAUDE.md \u00a715-5 requires explicit human sign-off on the motion gate. This report exists to give that sign-off real evidence instead of a percentile heuristic. false_pass_rate = fraction of block-static chunks (block_disp_px < 1.0px) that still clear the gate (latent_disp > gate) -- i.e. treated as informative despite no real block motion; lower is better."
+}

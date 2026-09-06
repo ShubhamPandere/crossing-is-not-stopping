@@ -1,0 +1,16 @@
+{
+  "kind": "ln_act",
+  "regime": "R2",
+  "episodes": 20,
+  "success_rate": 0.05,
+  "mean_wall_time_s": 148.03058837652208,
+  "shards": [
+    "_shard0",
+    "_shard1",
+    "_shard2",
+    "_shard3"
+  ],
+  "umf_success_kendall_tau": -0.3162277660168379,
+  "umf_success_kendall_p": 0.0994534797483088,
+  "umf_success_n": 20
+}

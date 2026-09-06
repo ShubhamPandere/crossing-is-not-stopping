@@ -1,0 +1,105 @@
+{
+  "per_task_set": {
+    "0-19": {
+      "label": "0-19",
+      "n": 20,
+      "pairing_mismatches": 0,
+      "settled_dist_chart_mean": 77.6,
+      "settled_dist_frozen_mean": 137.3,
+      "paired_delta_mean": -59.8,
+      "paired_delta_ci95": [
+        -84.9,
+        -35.8
+      ],
+      "chart_closer_count": "17/20",
+      "wilcoxon_p": 0.0002,
+      "direction": "chart closer",
+      "clean_subset_neither_passthrough": {
+        "n": 11,
+        "delta_mean": -47.9,
+        "wilcoxon_p": 0.0244
+      },
+      "passthrough_SR": [
+        0.45,
+        0.1
+      ],
+      "passthrough_mcnemar_p_chart_worse": 0.0078
+    },
+    "20-49": {
+      "label": "20-49",
+      "n": 30,
+      "pairing_mismatches": 0,
+      "settled_dist_chart_mean": 87.6,
+      "settled_dist_frozen_mean": 114.8,
+      "paired_delta_mean": -27.2,
+      "paired_delta_ci95": [
+        -50.9,
+        -1.9
+      ],
+      "chart_closer_count": "19/30",
+      "wilcoxon_p": 0.0288,
+      "direction": "chart closer",
+      "clean_subset_neither_passthrough": {
+        "n": 17,
+        "delta_mean": -16.8,
+        "wilcoxon_p": 0.3343
+      },
+      "passthrough_SR": [
+        0.367,
+        0.267
+      ],
+      "passthrough_mcnemar_p_chart_worse": 0.2266
+    },
+    "50-99": {
+      "label": "50-99",
+      "n": 50,
+      "pairing_mismatches": 0,
+      "settled_dist_chart_mean": 78.4,
+      "settled_dist_frozen_mean": 132.1,
+      "paired_delta_mean": -53.7,
+      "paired_delta_ci95": [
+        -75.3,
+        -31.9
+      ],
+      "chart_closer_count": "35/50",
+      "wilcoxon_p": 0.0001,
+      "direction": "chart closer",
+      "clean_subset_neither_passthrough": {
+        "n": 28,
+        "delta_mean": -40.9,
+        "wilcoxon_p": 0.0298
+      },
+      "passthrough_SR": [
+        0.38,
+        0.26
+      ],
+      "passthrough_mcnemar_p_chart_worse": 0.073
+    }
+  },
+  "merged_n100": {
+    "label": "merged n=100",
+    "n": 100,
+    "pairing_mismatches": 0,
+    "settled_dist_chart_mean": 81.0,
+    "settled_dist_frozen_mean": 128.0,
+    "paired_delta_mean": -47.0,
+    "paired_delta_ci95": [
+      -61.2,
+      -32.8
+    ],
+    "chart_closer_count": "71/100",
+    "wilcoxon_p": 0.0,
+    "direction": "chart closer",
+    "clean_subset_neither_passthrough": {
+      "n": 56,
+      "delta_mean": -34.9,
+      "wilcoxon_p": 0.0022
+    },
+    "passthrough_SR": [
+      0.39,
+      0.23
+    ],
+    "passthrough_mcnemar_p_chart_worse": 0.0012
+  },
+  "verdict": "50-99 replicates (delta=-53.7 < 0). All three task sets show chart closer. Merge and report paired n=100."
+}

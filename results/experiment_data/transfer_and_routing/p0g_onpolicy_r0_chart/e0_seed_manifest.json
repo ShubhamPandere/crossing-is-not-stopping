@@ -1,0 +1,724 @@
+{
+  "R0": {
+    "source": "closed_loop",
+    "regime_config": {},
+    "train": [
+      {
+        "seed": 2000,
+        "episode_idx": 183,
+        "offset": 14,
+        "n_contacts": 4
+      },
+      {
+        "seed": 2002,
+        "episode_idx": 15236,
+        "offset": 25,
+        "n_contacts": 24
+      },
+      {
+        "seed": 2004,
+        "episode_idx": 11278,
+        "offset": 11,
+        "n_contacts": 1
+      },
+      {
+        "seed": 2006,
+        "episode_idx": 2325,
+        "offset": 33,
+        "n_contacts": 12
+      },
+      {
+        "seed": 2008,
+        "episode_idx": 2697,
+        "offset": 11,
+        "n_contacts": 28
+      },
+      {
+        "seed": 2010,
+        "episode_idx": 17058,
+        "offset": 17,
+        "n_contacts": 21
+      },
+      {
+        "seed": 2012,
+        "episode_idx": 16290,
+        "offset": 24,
+        "n_contacts": 25
+      },
+      {
+        "seed": 2014,
+        "episode_idx": 16336,
+        "offset": 22,
+        "n_contacts": 29
+      },
+      {
+        "seed": 2016,
+        "episode_idx": 18083,
+        "offset": 43,
+        "n_contacts": 26
+      },
+      {
+        "seed": 2018,
+        "episode_idx": 17301,
+        "offset": 156,
+        "n_contacts": 22
+      },
+      {
+        "seed": 2020,
+        "episode_idx": 7491,
+        "offset": 118,
+        "n_contacts": 0
+      },
+      {
+        "seed": 2022,
+        "episode_idx": 2066,
+        "offset": 24,
+        "n_contacts": 10
+      },
+      {
+        "seed": 2024,
+        "episode_idx": 2688,
+        "offset": 27,
+        "n_contacts": 19
+      },
+      {
+        "seed": 2026,
+        "episode_idx": 8986,
+        "offset": 56,
+        "n_contacts": 35
+      },
+      {
+        "seed": 2028,
+        "episode_idx": 4171,
+        "offset": 46,
+        "n_contacts": 16
+      },
+      {
+        "seed": 2030,
+        "episode_idx": 17947,
+        "offset": 47,
+        "n_contacts": 19
+      },
+      {
+        "seed": 2032,
+        "episode_idx": 18310,
+        "offset": 13,
+        "n_contacts": 2
+      },
+      {
+        "seed": 2034,
+        "episode_idx": 5302,
+        "offset": 37,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2036,
+        "episode_idx": 10370,
+        "offset": 104,
+        "n_contacts": 22
+      },
+      {
+        "seed": 2038,
+        "episode_idx": 5993,
+        "offset": 53,
+        "n_contacts": 16
+      },
+      {
+        "seed": 2040,
+        "episode_idx": 4787,
+        "offset": 50,
+        "n_contacts": 27
+      },
+      {
+        "seed": 2042,
+        "episode_idx": 15929,
+        "offset": 48,
+        "n_contacts": 24
+      },
+      {
+        "seed": 2044,
+        "episode_idx": 18135,
+        "offset": 44,
+        "n_contacts": 24
+      },
+      {
+        "seed": 2046,
+        "episode_idx": 6957,
+        "offset": 60,
+        "n_contacts": 20
+      },
+      {
+        "seed": 2048,
+        "episode_idx": 14665,
+        "offset": 26,
+        "n_contacts": 17
+      },
+      {
+        "seed": 2050,
+        "episode_idx": 16300,
+        "offset": 51,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2052,
+        "episode_idx": 4508,
+        "offset": 44,
+        "n_contacts": 10
+      },
+      {
+        "seed": 2054,
+        "episode_idx": 2888,
+        "offset": 72,
+        "n_contacts": 20
+      },
+      {
+        "seed": 2056,
+        "episode_idx": 16839,
+        "offset": 2,
+        "n_contacts": 25
+      },
+      {
+        "seed": 2058,
+        "episode_idx": 15754,
+        "offset": 32,
+        "n_contacts": 10
+      },
+      {
+        "seed": 2060,
+        "episode_idx": 8199,
+        "offset": 39,
+        "n_contacts": 10
+      },
+      {
+        "seed": 2062,
+        "episode_idx": 8558,
+        "offset": 33,
+        "n_contacts": 3
+      },
+      {
+        "seed": 2064,
+        "episode_idx": 18373,
+        "offset": 44,
+        "n_contacts": 21
+      },
+      {
+        "seed": 2066,
+        "episode_idx": 17852,
+        "offset": 30,
+        "n_contacts": 29
+      },
+      {
+        "seed": 2068,
+        "episode_idx": 3619,
+        "offset": 42,
+        "n_contacts": 23
+      },
+      {
+        "seed": 2070,
+        "episode_idx": 4351,
+        "offset": 67,
+        "n_contacts": 1
+      },
+      {
+        "seed": 2072,
+        "episode_idx": 7058,
+        "offset": 73,
+        "n_contacts": 29
+      },
+      {
+        "seed": 2074,
+        "episode_idx": 18051,
+        "offset": 47,
+        "n_contacts": 20
+      },
+      {
+        "seed": 2076,
+        "episode_idx": 7817,
+        "offset": 19,
+        "n_contacts": 7
+      },
+      {
+        "seed": 2078,
+        "episode_idx": 3528,
+        "offset": 57,
+        "n_contacts": 3
+      },
+      {
+        "seed": 2080,
+        "episode_idx": 13248,
+        "offset": 42,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2082,
+        "episode_idx": 11924,
+        "offset": 86,
+        "n_contacts": 5
+      },
+      {
+        "seed": 2084,
+        "episode_idx": 12823,
+        "offset": 46,
+        "n_contacts": 50
+      },
+      {
+        "seed": 2086,
+        "episode_idx": 1603,
+        "offset": 27,
+        "n_contacts": 54
+      },
+      {
+        "seed": 2088,
+        "episode_idx": 11789,
+        "offset": 56,
+        "n_contacts": 14
+      },
+      {
+        "seed": 2090,
+        "episode_idx": 15114,
+        "offset": 2,
+        "n_contacts": 5
+      },
+      {
+        "seed": 2092,
+        "episode_idx": 15913,
+        "offset": 64,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2094,
+        "episode_idx": 5253,
+        "offset": 36,
+        "n_contacts": 18
+      },
+      {
+        "seed": 2096,
+        "episode_idx": 859,
+        "offset": 46,
+        "n_contacts": 17
+      },
+      {
+        "seed": 2098,
+        "episode_idx": 1241,
+        "offset": 78,
+        "n_contacts": 15
+      },
+      {
+        "seed": 2100,
+        "episode_idx": 859,
+        "offset": 48,
+        "n_contacts": 7
+      },
+      {
+        "seed": 2102,
+        "episode_idx": 6442,
+        "offset": 10,
+        "n_contacts": 19
+      },
+      {
+        "seed": 2104,
+        "episode_idx": 9573,
+        "offset": 58,
+        "n_contacts": 0
+      },
+      {
+        "seed": 2106,
+        "episode_idx": 8659,
+        "offset": 56,
+        "n_contacts": 32
+      },
+      {
+        "seed": 2108,
+        "episode_idx": 12899,
+        "offset": 51,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2110,
+        "episode_idx": 14927,
+        "offset": 14,
+        "n_contacts": 36
+      },
+      {
+        "seed": 2112,
+        "episode_idx": 5481,
+        "offset": 38,
+        "n_contacts": 20
+      },
+      {
+        "seed": 2114,
+        "episode_idx": 15495,
+        "offset": 33,
+        "n_contacts": 23
+      },
+      {
+        "seed": 2116,
+        "episode_idx": 1481,
+        "offset": 40,
+        "n_contacts": 6
+      },
+      {
+        "seed": 2118,
+        "episode_idx": 6118,
+        "offset": 26,
+        "n_contacts": 12
+      },
+      {
+        "seed": 2120,
+        "episode_idx": 5899,
+        "offset": 85,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2122,
+        "episode_idx": 7282,
+        "offset": 80,
+        "n_contacts": 25
+      },
+      {
+        "seed": 2124,
+        "episode_idx": 1222,
+        "offset": 72,
+        "n_contacts": 22
+      },
+      {
+        "seed": 2126,
+        "episode_idx": 5443,
+        "offset": 48,
+        "n_contacts": 0
+      },
+      {
+        "seed": 2128,
+        "episode_idx": 11222,
+        "offset": 68,
+        "n_contacts": 25
+      },
+      {
+        "seed": 2130,
+        "episode_idx": 17684,
+        "offset": 66,
+        "n_contacts": 12
+      },
+      {
+        "seed": 2132,
+        "episode_idx": 12175,
+        "offset": 10,
+        "n_contacts": 0
+      },
+      {
+        "seed": 2134,
+        "episode_idx": 15199,
+        "offset": 84,
+        "n_contacts": 16
+      },
+      {
+        "seed": 2136,
+        "episode_idx": 2846,
+        "offset": 90,
+        "n_contacts": 6
+      },
+      {
+        "seed": 2138,
+        "episode_idx": 2917,
+        "offset": 66,
+        "n_contacts": 20
+      },
+      {
+        "seed": 2140,
+        "episode_idx": 469,
+        "offset": 12,
+        "n_contacts": 29
+      },
+      {
+        "seed": 2142,
+        "episode_idx": 9239,
+        "offset": 36,
+        "n_contacts": 35
+      },
+      {
+        "seed": 2144,
+        "episode_idx": 18424,
+        "offset": 31,
+        "n_contacts": 0
+      },
+      {
+        "seed": 2146,
+        "episode_idx": 17809,
+        "offset": 23,
+        "n_contacts": 18
+      },
+      {
+        "seed": 2148,
+        "episode_idx": 7820,
+        "offset": 18,
+        "n_contacts": 7
+      },
+      {
+        "seed": 2150,
+        "episode_idx": 9390,
+        "offset": 18,
+        "n_contacts": 48
+      },
+      {
+        "seed": 2152,
+        "episode_idx": 7852,
+        "offset": 10,
+        "n_contacts": 9
+      },
+      {
+        "seed": 2154,
+        "episode_idx": 14051,
+        "offset": 22,
+        "n_contacts": 21
+      },
+      {
+        "seed": 2156,
+        "episode_idx": 8129,
+        "offset": 30,
+        "n_contacts": 9
+      },
+      {
+        "seed": 2158,
+        "episode_idx": 4453,
+        "offset": 46,
+        "n_contacts": 8
+      },
+      {
+        "seed": 2160,
+        "episode_idx": 2920,
+        "offset": 17,
+        "n_contacts": 25
+      },
+      {
+        "seed": 2162,
+        "episode_idx": 16650,
+        "offset": 41,
+        "n_contacts": 13
+      },
+      {
+        "seed": 2164,
+        "episode_idx": 11483,
+        "offset": 4,
+        "n_contacts": 0
+      },
+      {
+        "seed": 2166,
+        "episode_idx": 3291,
+        "offset": 20,
+        "n_contacts": 2
+      },
+      {
+        "seed": 2168,
+        "episode_idx": 12749,
+        "offset": 51,
+        "n_contacts": 20
+      },
+      {
+        "seed": 2170,
+        "episode_idx": 6365,
+        "offset": 25,
+        "n_contacts": 27
+      },
+      {
+        "seed": 2172,
+        "episode_idx": 5871,
+        "offset": 48,
+        "n_contacts": 14
+      },
+      {
+        "seed": 2174,
+        "episode_idx": 1719,
+        "offset": 21,
+        "n_contacts": 28
+      },
+      {
+        "seed": 2176,
+        "episode_idx": 14995,
+        "offset": 34,
+        "n_contacts": 28
+      },
+      {
+        "seed": 2178,
+        "episode_idx": 3867,
+        "offset": 45,
+        "n_contacts": 19
+      },
+      {
+        "seed": 2180,
+        "episode_idx": 7296,
+        "offset": 79,
+        "n_contacts": 22
+      },
+      {
+        "seed": 2182,
+        "episode_idx": 8683,
+        "offset": 21,
+        "n_contacts": 15
+      },
+      {
+        "seed": 2184,
+        "episode_idx": 12816,
+        "offset": 21,
+        "n_contacts": 15
+      },
+      {
+        "seed": 2186,
+        "episode_idx": 18645,
+        "offset": 77,
+        "n_contacts": 18
+      },
+      {
+        "seed": 2188,
+        "episode_idx": 3622,
+        "offset": 9,
+        "n_contacts": 9
+      },
+      {
+        "seed": 2190,
+        "episode_idx": 15131,
+        "offset": 50,
+        "n_contacts": 24
+      },
+      {
+        "seed": 2192,
+        "episode_idx": 1449,
+        "offset": 14,
+        "n_contacts": 10
+      },
+      {
+        "seed": 2194,
+        "episode_idx": 13122,
+        "offset": 56,
+        "n_contacts": 9
+      },
+      {
+        "seed": 2196,
+        "episode_idx": 18312,
+        "offset": 38,
+        "n_contacts": 17
+      },
+      {
+        "seed": 2198,
+        "episode_idx": 6600,
+        "offset": 21,
+        "n_contacts": 17
+      }
+    ],
+    "eval": [
+      {
+        "seed": 12000,
+        "episode_idx": 4167,
+        "offset": 25,
+        "n_contacts": 21
+      },
+      {
+        "seed": 12002,
+        "episode_idx": 5433,
+        "offset": 15,
+        "n_contacts": 30
+      },
+      {
+        "seed": 12004,
+        "episode_idx": 5280,
+        "offset": 52,
+        "n_contacts": 8
+      },
+      {
+        "seed": 12006,
+        "episode_idx": 17841,
+        "offset": 52,
+        "n_contacts": 17
+      },
+      {
+        "seed": 12008,
+        "episode_idx": 14001,
+        "offset": 42,
+        "n_contacts": 0
+      },
+      {
+        "seed": 12010,
+        "episode_idx": 14054,
+        "offset": 43,
+        "n_contacts": 18
+      },
+      {
+        "seed": 12012,
+        "episode_idx": 14509,
+        "offset": 68,
+        "n_contacts": 22
+      },
+      {
+        "seed": 12014,
+        "episode_idx": 8498,
+        "offset": 28,
+        "n_contacts": 7
+      }
+    ],
+    "test": [
+      {
+        "seed": 22000,
+        "episode_idx": 11999,
+        "offset": 41,
+        "n_contacts": 20
+      },
+      {
+        "seed": 22002,
+        "episode_idx": 9138,
+        "offset": 63,
+        "n_contacts": 0
+      },
+      {
+        "seed": 22004,
+        "episode_idx": 17900,
+        "offset": 62,
+        "n_contacts": 11
+      },
+      {
+        "seed": 22006,
+        "episode_idx": 11050,
+        "offset": 35,
+        "n_contacts": 15
+      },
+      {
+        "seed": 22008,
+        "episode_idx": 9768,
+        "offset": 64,
+        "n_contacts": 0
+      },
+      {
+        "seed": 22010,
+        "episode_idx": 17971,
+        "offset": 98,
+        "n_contacts": 9
+      },
+      {
+        "seed": 22012,
+        "episode_idx": 2184,
+        "offset": 44,
+        "n_contacts": 11
+      },
+      {
+        "seed": 22014,
+        "episode_idx": 10525,
+        "offset": 18,
+        "n_contacts": 9
+      }
+    ]
+  },
+  "_provenance": {
+    "git_commit": "5aac55d8bbb8ecb2d69ecffb0956da2ffee0943c",
+    "git_dirty": null,
+    "seed": 0,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "torch": "2.7.0+cu126",
+    "cuda": "12.6",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": true,
+    "matmul_allow_tf32": true,
+    "device": "NVIDIA L4",
+    "note": "forward-path deterministic; gradient-training path has ~1e-2 cross-process residual (see module docstring)",
+    "data_source": "closed_loop",
+    "collect_cem": "300x10 nas=2",
+    "contact_filter": "OFF"
+  }
+}

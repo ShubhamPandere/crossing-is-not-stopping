@@ -1,0 +1,346 @@
+{
+  "nas2": {
+    "n": 20,
+    "init_pairing_mismatches": 0,
+    "passthrough_sr": {
+      "chart": 2,
+      "frozen": 9
+    },
+    "settled_sr": {
+      "chart": 0,
+      "frozen": 0
+    },
+    "settled_dist_all": {
+      "chart_mean": 77.6,
+      "frozen_mean": 137.3,
+      "paired_delta": -59.8,
+      "delta_ci95": [
+        -84.9,
+        -36.0
+      ],
+      "chart_better": "17/20",
+      "wilcoxon_p": 0.0002,
+      "bands": {
+        "<20px": {
+          "chart": 1,
+          "frozen": 0
+        },
+        "<30px": {
+          "chart": 1,
+          "frozen": 0
+        },
+        "<40px": {
+          "chart": 3,
+          "frozen": 0
+        },
+        "<60px": {
+          "chart": 9,
+          "frozen": 1
+        },
+        "<80px": {
+          "chart": 13,
+          "frozen": 3
+        }
+      }
+    },
+    "settled_dist_neither_succeeded": {
+      "n": 11,
+      "chart_mean": 91.9,
+      "frozen_mean": 139.8,
+      "paired_delta": -47.9,
+      "chart_better": "9/11",
+      "wilcoxon_p": 0.0244
+    },
+    "drift_curve_median_px": {
+      "1": {
+        "frozen_median": 39.9,
+        "chart_median": 68.3
+      },
+      "5": {
+        "frozen_median": 64.3,
+        "chart_median": 68.3
+      },
+      "15": {
+        "frozen_median": 100.8,
+        "chart_median": 68.3
+      },
+      "30": {
+        "frozen_median": 120.2,
+        "chart_median": 67.4
+      },
+      "40": {
+        "frozen_median": 122.6,
+        "chart_median": 66.9
+      }
+    }
+  },
+  "nas6": {
+    "n": 20,
+    "init_pairing_mismatches": 0,
+    "passthrough_sr": {
+      "chart": 5,
+      "frozen": 11
+    },
+    "settled_sr": {
+      "chart": 1,
+      "frozen": 0
+    },
+    "settled_dist_all": {
+      "chart_mean": 111.1,
+      "frozen_mean": 138.9,
+      "paired_delta": -27.8,
+      "delta_ci95": [
+        -58.5,
+        4.5
+      ],
+      "chart_better": "14/20",
+      "wilcoxon_p": 0.0637,
+      "bands": {
+        "<20px": {
+          "chart": 1,
+          "frozen": 0
+        },
+        "<30px": {
+          "chart": 1,
+          "frozen": 0
+        },
+        "<40px": {
+          "chart": 2,
+          "frozen": 1
+        },
+        "<60px": {
+          "chart": 6,
+          "frozen": 2
+        },
+        "<80px": {
+          "chart": 7,
+          "frozen": 5
+        }
+      }
+    },
+    "settled_dist_neither_succeeded": {
+      "n": 9,
+      "chart_mean": 135.0,
+      "frozen_mean": 169.7,
+      "paired_delta": -34.7,
+      "chart_better": "7/9",
+      "wilcoxon_p": 0.0742
+    },
+    "drift_curve_median_px": {
+      "1": {
+        "frozen_median": 17.8,
+        "chart_median": 29.5
+      },
+      "5": {
+        "frozen_median": 62.6,
+        "chart_median": 56.7
+      },
+      "15": {
+        "frozen_median": 99.2,
+        "chart_median": 106.5
+      },
+      "30": {
+        "frozen_median": 117.0,
+        "chart_median": 115.9
+      },
+      "40": {
+        "frozen_median": 125.9,
+        "chart_median": 118.5
+      }
+    }
+  },
+  "R0_control_baseline_nas6": {
+    "n": 20,
+    "passthrough_sr": 19,
+    "settled_sr": 19,
+    "note": "settled SR should be ~= pass-through SR if real successes survive the hold",
+    "per_success": [
+      {
+        "ep": 1,
+        "pt_dist": 17.7,
+        "settled_dist": 14.9,
+        "settled_ok": true
+      },
+      {
+        "ep": 2,
+        "pt_dist": 15.3,
+        "settled_dist": 15.0,
+        "settled_ok": true
+      },
+      {
+        "ep": 3,
+        "pt_dist": 15.9,
+        "settled_dist": 15.3,
+        "settled_ok": true
+      },
+      {
+        "ep": 4,
+        "pt_dist": 12.6,
+        "settled_dist": 11.5,
+        "settled_ok": true
+      },
+      {
+        "ep": 5,
+        "pt_dist": 18.6,
+        "settled_dist": 16.0,
+        "settled_ok": true
+      },
+      {
+        "ep": 6,
+        "pt_dist": 19.3,
+        "settled_dist": 17.3,
+        "settled_ok": true
+      },
+      {
+        "ep": 7,
+        "pt_dist": 17.1,
+        "settled_dist": 12.1,
+        "settled_ok": true
+      },
+      {
+        "ep": 8,
+        "pt_dist": 12.3,
+        "settled_dist": 10.7,
+        "settled_ok": true
+      },
+      {
+        "ep": 9,
+        "pt_dist": 12.3,
+        "settled_dist": 10.3,
+        "settled_ok": true
+      },
+      {
+        "ep": 10,
+        "pt_dist": 17.4,
+        "settled_dist": 13.0,
+        "settled_ok": true
+      },
+      {
+        "ep": 11,
+        "pt_dist": 15.2,
+        "settled_dist": 9.4,
+        "settled_ok": true
+      },
+      {
+        "ep": 12,
+        "pt_dist": 19.6,
+        "settled_dist": 19.0,
+        "settled_ok": true
+      },
+      {
+        "ep": 13,
+        "pt_dist": 17.4,
+        "settled_dist": 16.7,
+        "settled_ok": true
+      },
+      {
+        "ep": 14,
+        "pt_dist": 13.9,
+        "settled_dist": 10.5,
+        "settled_ok": true
+      },
+      {
+        "ep": 15,
+        "pt_dist": 11.8,
+        "settled_dist": 6.8,
+        "settled_ok": true
+      },
+      {
+        "ep": 16,
+        "pt_dist": 15.1,
+        "settled_dist": 12.7,
+        "settled_ok": true
+      },
+      {
+        "ep": 17,
+        "pt_dist": 19.7,
+        "settled_dist": 19.7,
+        "settled_ok": true
+      },
+      {
+        "ep": 18,
+        "pt_dist": 13.4,
+        "settled_dist": 9.3,
+        "settled_ok": true
+      },
+      {
+        "ep": 19,
+        "pt_dist": 18.1,
+        "settled_dist": 14.5,
+        "settled_ok": true
+      }
+    ]
+  },
+  "falsification_nas6_trace15_vs_archived": {
+    "n": 11,
+    "all_match": true,
+    "detail": [
+      {
+        "ep": 1,
+        "old_settled15": 91.429,
+        "new_trace15": 91.429,
+        "match": true
+      },
+      {
+        "ep": 4,
+        "old_settled15": 81.153,
+        "new_trace15": 81.153,
+        "match": true
+      },
+      {
+        "ep": 6,
+        "old_settled15": 45.809,
+        "new_trace15": 45.809,
+        "match": true
+      },
+      {
+        "ep": 7,
+        "old_settled15": 145.037,
+        "new_trace15": 145.037,
+        "match": true
+      },
+      {
+        "ep": 8,
+        "old_settled15": 47.677,
+        "new_trace15": 47.677,
+        "match": true
+      },
+      {
+        "ep": 11,
+        "old_settled15": 162.48,
+        "new_trace15": 162.48,
+        "match": true
+      },
+      {
+        "ep": 13,
+        "old_settled15": 49.714,
+        "new_trace15": 49.714,
+        "match": true
+      },
+      {
+        "ep": 14,
+        "old_settled15": 88.214,
+        "new_trace15": 88.214,
+        "match": true
+      },
+      {
+        "ep": 16,
+        "old_settled15": 33.546,
+        "new_trace15": 33.546,
+        "match": true
+      },
+      {
+        "ep": 17,
+        "old_settled15": 77.595,
+        "new_trace15": 77.595,
+        "match": true
+      },
+      {
+        "ep": 19,
+        "old_settled15": 23.442,
+        "new_trace15": 23.442,
+        "match": true
+      }
+    ]
+  }
+}

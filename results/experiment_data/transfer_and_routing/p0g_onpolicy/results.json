@@ -1,0 +1,25 @@
+{
+  "R2": {
+    "ln_act": {
+      "train_loss": 0.22234542042016983,
+      "eval_loss": 0.47211983799934387,
+      "eval_umf": 0.33132671026012644,
+      "eval_umf_source": "test",
+      "val_umf": 0.32277384739182896,
+      "params": 10764,
+      "params_stored": 10764,
+      "params_trainable": 10764,
+      "status": "completed",
+      "eval_umf_ungated": 0.33132671026012644,
+      "eval_umf_chunkT2": 0.5582776582502724,
+      "eval_umf_chunkT2_ungated": 0.5582776582502724,
+      "eval_n_trajs": 8,
+      "eval_n_umf": 8,
+      "eval_n_umf_chunkT2": 40,
+      "eval_n_windows": 40,
+      "motion_gate_value": 287.86724853515625,
+      "motion_gate_chunk_value": 155.51747131347656,
+      "motion_gate_rule": "RETIRED (P10): 10th-pct of train latent displacement (score.compute_motion_gate default) \u2014 motion_gate_value at T=train_traj_len//frameskip, motion_gate_chunk_value at T=2 for the windowed UMF (\u00a77-B2). v3 \u00a76.6 replaces both with P95 over block-static chunks \u2014 NOT yet applied."
+    }
+  }
+}
