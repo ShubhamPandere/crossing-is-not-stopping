@@ -71,19 +71,7 @@ The drivers that produce the raw data everything else reads.
 
 ## `scripts/analysis/`
 
-Read-only — every script here recomputes one paper statistic from the raw per-episode JSONL. None import `atlas/`.
-
-⚠️ **Data currency.** On 2026-09-03 a planning-horizon bug (`steps_left`) was found and fixed
-(`--fix-steps-left`) in the closed-loop cells feeding the dose-ladder, n=100, and CEM-iteration
-results. `damping_dose_ladder.py`, `damping_dose_n100.py`, and `cem_iteration_family.py`'s
-PRIMARY iteration ladder have been repointed at the corrected `*_fixsteps` data directories and
-re-verified to reproduce the exact numbers in the project's audit trail (Δ-25.6px / 60/100 for
-the n=100 headline, 0.95/0.75/0.70/0.65/0.55/0.50 crossing-SR for the dose ladder, 59.0/122.5/
-154.5/149.8px for the iteration ladder). Each writes a `*_fixsteps.json` output, kept alongside
-(not overwriting) the original archived JSON of the same vintage already in `results/` — the
-archived files are retained for the historical record only and should not be quoted as current.
-`cem_iteration_family.py`'s SECONDARY 12-controller matrix has no corrected rerun available for
-its ln_act/alpha0/nas6 cells and remains on the original data (see the script's own docstring).
+Read-only — every script here recomputes one paper statistic from the raw per-episode JSONL. 
 
 | File | Produces |
 |---|---|
