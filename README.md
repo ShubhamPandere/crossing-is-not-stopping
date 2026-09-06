@@ -198,17 +198,6 @@ python scripts/analysis/cem_iteration_family.py
 python scripts/analysis/make_paper_figures.py
 ```
 
-## Citation
-
-```bibtex
-@inproceedings{atlas2026,
-  title     = {Threshold-Crossing vs. Settle-Validated Success in Continual World Models},
-  author    = {Pandere, Shubham},
-  booktitle = {NeurIPS 2026 Workshop on World Models in Physical AI},
-  year      = {2026}
-}
-```
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
