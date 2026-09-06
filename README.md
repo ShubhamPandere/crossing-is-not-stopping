@@ -7,8 +7,6 @@ controller. All planning runs use a single frozen substrate (DINOv2 encoder + pr
 planner from [`jepa-wms`](https://github.com/facebookresearch/jepa-wms)); only a small adapter
 (≤11k params) is ever trained.
 
-This repository ships only the code that actually produces the paper's reported numbers — traced
-directly from `EVIDENCE_LEDGER.md`'s claim-by-claim provenance, not the full experiment codebase.
 
 ## Glossary — decode before reading `results/`
 
